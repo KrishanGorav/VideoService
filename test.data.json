@@ -1,0 +1,641 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "@vocab": "https://api.weather.gov/ontology#"
+        }
+    ],
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b4d666350cc82ecd3029084ec7457747c7b9ae1e.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-86.9599999, 36.28],
+                        [-86.9599999, 36.26],
+                        [-87.39, 36.12],
+                        [-87.49, 36.269999999999996],
+                        [-87.16, 36.459999999999994],
+                        [-86.9599999, 36.28]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b4d666350cc82ecd3029084ec7457747c7b9ae1e.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.b4d666350cc82ecd3029084ec7457747c7b9ae1e.001.1",
+                "areaDesc": "Cheatham, TN; Dickson, TN; Montgomery, TN",
+                "geocode": {
+                    "SAME": ["047021", "047043", "047125"],
+                    "UGC": ["TNC021", "TNC043", "TNC125"]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/TNC021",
+                    "https://api.weather.gov/zones/county/TNC043",
+                    "https://api.weather.gov/zones/county/TNC125"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b262d25de1376f01e2946d3444750c9d659297a8.001.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.b262d25de1376f01e2946d3444750c9d659297a8.001.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2023-07-02T17:49:00-05:00"
+                    }
+                ],
+                "sent": "2023-07-02T17:59:00-05:00",
+                "effective": "2023-07-02T17:59:00-05:00",
+                "onset": "2023-07-02T17:59:00-05:00",
+                "expires": "2023-07-02T18:15:00-05:00",
+                "ends": "2023-07-02T18:15:00-05:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Severe Thunderstorm Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Nashville TN",
+                "headline": "Severe Thunderstorm Warning issued July 2 at 5:59PM CDT until July 2 at 6:15PM CDT by NWS Nashville TN",
+                "description": "At 559 PM CDT, a severe thunderstorm was located 11 miles northwest\nof White Bluff, or 11 miles north of Dickson, moving northeast at 50\nmph.\n\nHAZARD...60 mph wind gusts and nickel size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\nLocations impacted include...\nAshland City, Charlotte, Vanleer, Slayden and Cheatham Dam.",
+                "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.\n\nContinuous cloud to ground lightning is occurring with this storm.\nMove indoors immediately. Lightning is one of nature's leading\nkillers. Remember, if you can hear thunder, you are close enough to\nbe struck by lightning.",
+                "response": "Shelter",
+                "parameters": {
+                    "AWIPSidentifier": ["SVSOHX"],
+                    "WMOidentifier": ["WWUS54 KOHX 022259"],
+                    "NWSheadline": [
+                        "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 615 PM CDT FOR NORTHERN DICKSON...SOUTHEASTERN MONTGOMERY AND NORTHERN CHEATHAM COUNTIES"
+                    ],
+                    "eventMotionDescription": ["2023-07-02T22:59:00-00:00...storm...237DEG...42KT...36.23,-87.34"],
+                    "windThreat": ["RADAR INDICATED"],
+                    "maxWindGust": ["60 MPH"],
+                    "hailThreat": ["RADAR INDICATED"],
+                    "maxHailSize": ["0.88"],
+                    "BLOCKCHANNEL": ["EAS", "NWEM", "CMAS"],
+                    "EAS-ORG": ["WXR"],
+                    "VTEC": ["/O.CON.KOHX.SV.W.0155.000000T0000Z-230702T2315Z/"],
+                    "eventEndingTime": ["2023-07-02T23:15:00+00:00"]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91b4d8472a869a741e19469fb9820fb3e4d777d7.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-89.79, 33.47],
+                        [-90.03, 33.46],
+                        [-90.05, 33.58],
+                        [-89.78999999999999, 33.65],
+                        [-89.79, 33.47]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91b4d8472a869a741e19469fb9820fb3e4d777d7.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.91b4d8472a869a741e19469fb9820fb3e4d777d7.001.1",
+                "areaDesc": "Carroll, MS",
+                "geocode": {
+                    "SAME": ["028015"],
+                    "UGC": ["MSC015"]
+                },
+                "affectedZones": ["https://api.weather.gov/zones/county/MSC015"],
+                "references": [],
+                "sent": "2023-07-02T17:56:00-05:00",
+                "effective": "2023-07-02T17:56:00-05:00",
+                "onset": "2023-07-02T17:56:00-05:00",
+                "expires": "2023-07-02T18:45:00-05:00",
+                "ends": "2023-07-02T18:45:00-05:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Severe Thunderstorm Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Jackson MS",
+                "headline": "Severe Thunderstorm Warning issued July 2 at 5:56PM CDT until July 2 at 6:45PM CDT by NWS Jackson MS",
+                "description": "The National Weather Service in Jackson has issued a\n\n* Severe Thunderstorm Warning for...\nNorth central Carroll County in north central Mississippi...\n\n* Until 645 PM CDT.\n\n* At 556 PM CDT, a severe thunderstorm was located over North\nCarrollton, or over Carrollton, moving east at 15 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* This severe thunderstorm will be near...\nCarrollton and North Carrollton around 600 PM CDT.",
+                "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+                "response": "Shelter",
+                "parameters": {
+                    "AWIPSidentifier": ["SVRJAN"],
+                    "WMOidentifier": ["WUUS54 KJAN 022256"],
+                    "eventMotionDescription": ["2023-07-02T22:56:00-00:00...storm...250DEG...11KT...33.54,-89.95"],
+                    "windThreat": ["RADAR INDICATED"],
+                    "maxWindGust": ["60 MPH"],
+                    "hailThreat": ["RADAR INDICATED"],
+                    "maxHailSize": ["1.00"],
+                    "BLOCKCHANNEL": ["EAS", "NWEM", "CMAS"],
+                    "EAS-ORG": ["WXR"],
+                    "VTEC": ["/O.NEW.KJAN.SV.W.0485.230702T2256Z-230702T2345Z/"],
+                    "eventEndingTime": ["2023-07-02T23:45:00+00:00"]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28b81f065a71f64607112197c6bf2827c9207e01.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-83.66, 34.5],
+                        [-83.61, 34.43],
+                        [-83.54, 34.49],
+                        [-83.4, 34.46],
+                        [-83.38000000000001, 34.42],
+                        [-83.39000000000001, 34.32],
+                        [-83.34000000000002, 34.27],
+                        [-83.36000000000001, 34.21],
+                        [-83.40000000000002, 34.2],
+                        [-83.36000000000001, 34.1599999],
+                        [-83.39000000000001, 34.050000000000004],
+                        [-83.36000000000001, 34.040000000000006],
+                        [-83.50000000000001, 34.00000000000001],
+                        [-83.63000000000001, 33.90999990000001],
+                        [-83.78000000000002, 33.90999990000001],
+                        [-83.80000000000001, 33.93000000000001],
+                        [-83.86000000000001, 33.90999990000001],
+                        [-83.84000000000002, 34.20000000000001],
+                        [-83.93000000000002, 34.37000000000001],
+                        [-83.70999990000003, 34.51000000000001],
+                        [-83.66, 34.5]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28b81f065a71f64607112197c6bf2827c9207e01.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.28b81f065a71f64607112197c6bf2827c9207e01.001.1",
+                "areaDesc": "Banks, GA; Barrow, GA; Gwinnett, GA; Hall, GA; Jackson, GA",
+                "geocode": {
+                    "SAME": ["013011", "013013", "013135", "013139", "013157"],
+                    "UGC": ["GAC011", "GAC013", "GAC135", "GAC139", "GAC157"]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/GAC011",
+                    "https://api.weather.gov/zones/county/GAC013",
+                    "https://api.weather.gov/zones/county/GAC135",
+                    "https://api.weather.gov/zones/county/GAC139",
+                    "https://api.weather.gov/zones/county/GAC157"
+                ],
+                "references": [],
+                "sent": "2023-07-02T18:54:00-04:00",
+                "effective": "2023-07-02T18:54:00-04:00",
+                "onset": "2023-07-02T18:54:00-04:00",
+                "expires": "2023-07-02T19:45:00-04:00",
+                "ends": "2023-07-02T19:45:00-04:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Severe Thunderstorm Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Peachtree City GA",
+                "headline": "Severe Thunderstorm Warning issued July 2 at 6:54PM EDT until July 2 at 7:45PM EDT by NWS Peachtree City GA",
+                "description": "The National Weather Service in Peachtree City has issued a\n\n* Severe Thunderstorm Warning for...\nBarrow County in north central Georgia...\nEast central Gwinnett County in north central Georgia...\nBanks County in northeastern Georgia...\nHall County in north central Georgia...\nJackson County in northeastern Georgia...\n\n* Until 745 PM EDT.\n\n* At 654 PM EDT, a severe thunderstorm was located over Jefferson,\nmoving northeast at 15 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nGainesville, Winder, Jefferson, Commerce, Homer, Braselton, Auburn,\nLula, Statham, Maysville, Arcade, Nicholson, Hoschton, Clermont,\nBethlehem, Pendergrass, Carl, Gillsville, Talmo and Candler.",
+                "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.\n\nIf you see wind damage...hail or flooding...wait until the storm has\npassed...and then call the National Weather Service toll free\nat 1 8 6 6 7 6 3 4 4 6 6 or tweet us your report at NWSATLANTA.",
+                "response": "Shelter",
+                "parameters": {
+                    "AWIPSidentifier": ["SVRFFC"],
+                    "WMOidentifier": ["WUUS52 KFFC 022254"],
+                    "eventMotionDescription": ["2023-07-02T22:54:00-00:00...storm...246DEG...13KT...34.15,-83.64"],
+                    "windThreat": ["RADAR INDICATED"],
+                    "maxWindGust": ["60 MPH"],
+                    "hailThreat": ["RADAR INDICATED"],
+                    "maxHailSize": ["Up to .75"],
+                    "BLOCKCHANNEL": ["EAS", "NWEM", "CMAS"],
+                    "EAS-ORG": ["WXR"],
+                    "VTEC": ["/O.NEW.KFFC.SV.W.0292.230702T2254Z-230702T2345Z/"],
+                    "eventEndingTime": ["2023-07-02T23:45:00+00:00"]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.897b848d6c8ea77a5c93b2249b5d93d644d7635c.002.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-76.3199999, 39.34],
+                        [-76.51, 39.330000000000005],
+                        [-76.55000000000001, 39.4099999],
+                        [-76.44000000000001, 39.49],
+                        [-76.3199999, 39.34]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.897b848d6c8ea77a5c93b2249b5d93d644d7635c.002.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.897b848d6c8ea77a5c93b2249b5d93d644d7635c.002.1",
+                "areaDesc": "Baltimore, MD",
+                "geocode": {
+                    "SAME": ["024005"],
+                    "UGC": ["MDC005"]
+                },
+                "affectedZones": ["https://api.weather.gov/zones/county/MDC005"],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.da4a629d1b821671e0e11d85c4e1e23ca7bdad15.001.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.da4a629d1b821671e0e11d85c4e1e23ca7bdad15.001.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2023-07-02T18:29:00-04:00"
+                    }
+                ],
+                "sent": "2023-07-02T18:53:00-04:00",
+                "effective": "2023-07-02T18:53:00-04:00",
+                "onset": "2023-07-02T18:53:00-04:00",
+                "expires": "2023-07-02T19:30:00-04:00",
+                "ends": "2023-07-02T19:30:00-04:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Severe Thunderstorm Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Baltimore MD/Washington DC",
+                "headline": "Severe Thunderstorm Warning issued July 2 at 6:53PM EDT until July 2 at 7:30PM EDT by NWS Baltimore MD/Washington DC",
+                "description": "At 653 PM EDT, a severe thunderstorm was located over White Marsh, or\nnear Middle River, moving northeast at 30 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Damaging winds will cause some trees and large branches to\nfall. This could injure those outdoors, as well as damage\nhomes and vehicles. Roadways may become blocked by downed\ntrees. Localized power outages are possible. Unsecured\nlight objects may become projectiles.\n\nLocations impacted include...\nMiddle River, Parkville, Carney, Perry Hall, Rosedale, Rossville,\nWhite Marsh, Bowleys Quarters, Kingsville, Nottingham, Fork,\nFullerton, Chase, Loch Raven, Upper Falls and Gunpowder.",
+                "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+                "response": "Shelter",
+                "parameters": {
+                    "AWIPSidentifier": ["SVSLWX"],
+                    "WMOidentifier": ["WWUS51 KLWX 022253"],
+                    "NWSheadline": [
+                        "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 730 PM EDT FOR EAST CENTRAL BALTIMORE COUNTY"
+                    ],
+                    "eventMotionDescription": ["2023-07-02T22:53:00-00:00...storm...247DEG...24KT...39.38,-76.49"],
+                    "windThreat": ["RADAR INDICATED"],
+                    "maxWindGust": ["60 MPH"],
+                    "hailThreat": ["RADAR INDICATED"],
+                    "maxHailSize": ["Up to .75"],
+                    "BLOCKCHANNEL": ["EAS", "NWEM", "CMAS"],
+                    "EAS-ORG": ["WXR"],
+                    "VTEC": ["/O.CON.KLWX.SV.W.0096.000000T0000Z-230702T2330Z/"],
+                    "eventEndingTime": ["2023-07-02T23:30:00+00:00"]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8e8d8ede014c7fc7f2448c8d089af6aedc2ae721.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-86.68, 39.07],
+                        [-86.68, 39.1599999],
+                        [-86.47000000000001, 39.300000000000004],
+                        [-86.37000000000002, 39.17],
+                        [-86.37000000000002, 39.06],
+                        [-86.64000000000001, 39],
+                        [-86.68, 39.07]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8e8d8ede014c7fc7f2448c8d089af6aedc2ae721.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.8e8d8ede014c7fc7f2448c8d089af6aedc2ae721.001.1",
+                "areaDesc": "Monroe, IN",
+                "geocode": {
+                    "SAME": ["018105"],
+                    "UGC": ["INC105"]
+                },
+                "affectedZones": ["https://api.weather.gov/zones/county/INC105"],
+                "references": [],
+                "sent": "2023-07-02T18:52:00-04:00",
+                "effective": "2023-07-02T18:52:00-04:00",
+                "onset": "2023-07-02T18:52:00-04:00",
+                "expires": "2023-07-02T19:30:00-04:00",
+                "ends": "2023-07-02T19:30:00-04:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Severe Thunderstorm Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Indianapolis IN",
+                "headline": "Severe Thunderstorm Warning issued July 2 at 6:52PM EDT until July 2 at 7:30PM EDT by NWS Indianapolis IN",
+                "description": "The National Weather Service in Indianapolis has issued a\n\n* Severe Thunderstorm Warning for...\nCentral Monroe County in south central Indiana...\n\n* Until 730 PM EDT.\n\n* At 652 PM EDT, a severe thunderstorm was located 7 miles southwest\nof Bloomington, moving northeast at 20 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* This severe thunderstorm will be near...\nBloomington, Whitehall and Smithville around 705 PM EDT.\n\nOther locations in the path of this severe thunderstorm include\nIndiana University, Monroe Reservoir, Unionville and Woodville Hills.",
+                "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+                "response": "Shelter",
+                "parameters": {
+                    "AWIPSidentifier": ["SVRIND"],
+                    "WMOidentifier": ["WUUS53 KIND 022252"],
+                    "eventMotionDescription": ["2023-07-02T22:52:00-00:00...storm...241DEG...18KT...39.09,-86.63"],
+                    "windThreat": ["RADAR INDICATED"],
+                    "maxWindGust": ["60 MPH"],
+                    "hailThreat": ["RADAR INDICATED"],
+                    "maxHailSize": ["1.00"],
+                    "BLOCKCHANNEL": ["EAS", "NWEM", "CMAS"],
+                    "EAS-ORG": ["WXR"],
+                    "VTEC": ["/O.NEW.KIND.SV.W.0112.230702T2252Z-230702T2330Z/"],
+                    "eventEndingTime": ["2023-07-02T23:30:00+00:00"]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0a1fcc19d6e6c250121e9b629bfe0e9c0e162671.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-83.92, 37.44],
+                        [-83.9599999, 37.589999999999996],
+                        [-83.64, 37.669999999999995],
+                        [-83.58, 37.459999999999994],
+                        [-83.92, 37.44]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0a1fcc19d6e6c250121e9b629bfe0e9c0e162671.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.0a1fcc19d6e6c250121e9b629bfe0e9c0e162671.001.1",
+                "areaDesc": "Estill, KY; Jackson, KY; Lee, KY; Owsley, KY",
+                "geocode": {
+                    "SAME": ["021065", "021109", "021129", "021189"],
+                    "UGC": ["KYC065", "KYC109", "KYC129", "KYC189"]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/KYC065",
+                    "https://api.weather.gov/zones/county/KYC109",
+                    "https://api.weather.gov/zones/county/KYC129",
+                    "https://api.weather.gov/zones/county/KYC189"
+                ],
+                "references": [],
+                "sent": "2023-07-02T18:50:00-04:00",
+                "effective": "2023-07-02T18:50:00-04:00",
+                "onset": "2023-07-02T18:50:00-04:00",
+                "expires": "2023-07-02T19:15:00-04:00",
+                "ends": "2023-07-02T19:15:00-04:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Severe Thunderstorm Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Jackson KY",
+                "headline": "Severe Thunderstorm Warning issued July 2 at 6:50PM EDT until July 2 at 7:15PM EDT by NWS Jackson KY",
+                "description": "The National Weather Service in JACKSON KY has issued a\n\n* Severe Thunderstorm Warning for...\nNorthern Owsley County in southeastern Kentucky...\nSouth central Estill County in east central Kentucky...\nNortheastern Jackson County in southeastern Kentucky...\nLee County in southeastern Kentucky...\n\n* Until 715 PM EDT.\n\n* At 650 PM EDT, a severe thunderstorm was located over Banford, or 7\nmiles southwest of Beattyville, moving east at 30 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage\nto roofs, siding, and trees.\n\n* This severe thunderstorm will be near...\nHeidelberg around 655 PM EDT.\nWhite Ash around 700 PM EDT.\nBeattyville around 705 PM EDT.\nSt. Helens around 710 PM EDT.\n\nOther locations in the path of this severe thunderstorm include Lone.",
+                "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+                "response": "Shelter",
+                "parameters": {
+                    "AWIPSidentifier": ["SVRJKL"],
+                    "WMOidentifier": ["WUUS53 KJKL 022250"],
+                    "eventMotionDescription": ["2023-07-02T22:50:00-00:00...storm...257DEG...27KT...37.54,-83.83"],
+                    "windThreat": ["RADAR INDICATED"],
+                    "maxWindGust": ["60 MPH"],
+                    "hailThreat": ["RADAR INDICATED"],
+                    "maxHailSize": ["1.00"],
+                    "BLOCKCHANNEL": ["EAS", "NWEM", "CMAS"],
+                    "EAS-ORG": ["WXR"],
+                    "VTEC": ["/O.NEW.KJKL.SV.W.0077.230702T2250Z-230702T2315Z/"],
+                    "eventEndingTime": ["2023-07-02T23:15:00+00:00"]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2dcb9718b2a7fd22b01725b38112d74dc2d2f928.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-81.88, 36.19],
+                        [-81.86, 36.19],
+                        [-81.83, 36.159999899999995],
+                        [-81.81, 36.10999999999999],
+                        [-81.69, 36.11999999999999],
+                        [-81.64999999999999, 36.11999999999999],
+                        [-81.69, 36.06999999999999],
+                        [-81.94, 36.059999999999995],
+                        [-81.94, 36.19],
+                        [-81.89, 36.199999999999996],
+                        [-81.88, 36.19]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2dcb9718b2a7fd22b01725b38112d74dc2d2f928.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.2dcb9718b2a7fd22b01725b38112d74dc2d2f928.001.1",
+                "areaDesc": "Avery, NC; Caldwell, NC",
+                "geocode": {
+                    "SAME": ["037011", "037027"],
+                    "UGC": ["NCC011", "NCC027"]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/NCC011",
+                    "https://api.weather.gov/zones/county/NCC027"
+                ],
+                "references": [],
+                "sent": "2023-07-02T18:49:00-04:00",
+                "effective": "2023-07-02T18:49:00-04:00",
+                "onset": "2023-07-02T18:49:00-04:00",
+                "expires": "2023-07-02T19:15:00-04:00",
+                "ends": "2023-07-02T19:15:00-04:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Severe Thunderstorm Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Greenville-Spartanburg SC",
+                "headline": "Severe Thunderstorm Warning issued July 2 at 6:49PM EDT until July 2 at 7:15PM EDT by NWS Greenville-Spartanburg SC",
+                "description": "The National Weather Service in Greenville-Spartanburg has issued a\n\n* Severe Thunderstorm Warning for...\nNorthwestern Caldwell County in western North Carolina...\nCentral Avery County in western North Carolina...\n\n* Until 715 PM EDT.\n\n* At 648 PM EDT, a severe thunderstorm was located 5 miles southwest\nof Foscoe, or near Grandfather Mountain State Park, moving east at\n20 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor hail damage to vehicles is expected. Expect wind\ndamage to trees and power lines.\n\n* Locations impacted include...\nNewland, Blowing Rock In Caldwell County, Banner Elk, Beech\nMountain In Avery County, Sugar Mountain, Seven Devils, Grandfather\nMountain State Park, Linville, Upton and B.R. Parkway-Linville\nFalls To Grandfather.",
+                "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.\n\nPlease report damaging winds, hail, or flooding to the National\nWeather Service by calling toll free, 1, 800, 2 6 7, 8 1 0 1, or by\nposting on our Facebook page, or Tweet it using hashtag nwsgsp. Your\nmessage should describe the event and the specific location where it\noccurred.",
+                "response": "Shelter",
+                "parameters": {
+                    "AWIPSidentifier": ["SVRGSP"],
+                    "WMOidentifier": ["WUUS52 KGSP 022249"],
+                    "eventMotionDescription": ["2023-07-02T22:48:00-00:00...storm...261DEG...16KT...36.12,-81.84"],
+                    "windThreat": ["RADAR INDICATED"],
+                    "maxWindGust": ["60 MPH"],
+                    "hailThreat": ["RADAR INDICATED"],
+                    "maxHailSize": ["1.00"],
+                    "BLOCKCHANNEL": ["EAS", "NWEM", "CMAS"],
+                    "EAS-ORG": ["WXR"],
+                    "VTEC": ["/O.NEW.KGSP.SV.W.0143.230702T2249Z-230702T2315Z/"],
+                    "eventEndingTime": ["2023-07-02T23:15:00+00:00"]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bd7b15ff3b39e932a3f0140ca8da5b467de6f3a.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-103.04, 36.1],
+                        [-102.75, 36.1599999],
+                        [-102.43, 36.24],
+                        [-102.27000000000001, 36.330000000000005],
+                        [-101.97000000000001, 35.9799999],
+                        [-102.33000000000001, 35.7],
+                        [-102.98000000000002, 35.52],
+                        [-103.04000000000002, 35.620000000000005],
+                        [-103.04, 36.1]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bd7b15ff3b39e932a3f0140ca8da5b467de6f3a.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.9bd7b15ff3b39e932a3f0140ca8da5b467de6f3a.001.1",
+                "areaDesc": "Dallam, TX; Hartley, TX; Moore, TX; Oldham, TX; Sherman, TX",
+                "geocode": {
+                    "SAME": ["048111", "048205", "048341", "048359", "048421"],
+                    "UGC": ["TXC111", "TXC205", "TXC341", "TXC359", "TXC421"]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/TXC111",
+                    "https://api.weather.gov/zones/county/TXC205",
+                    "https://api.weather.gov/zones/county/TXC341",
+                    "https://api.weather.gov/zones/county/TXC359",
+                    "https://api.weather.gov/zones/county/TXC421"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e0dce8a1074bf8b374cf8dd1773f38bc83336a0c.001.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.e0dce8a1074bf8b374cf8dd1773f38bc83336a0c.001.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2023-07-02T17:09:00-05:00"
+                    }
+                ],
+                "sent": "2023-07-02T17:39:00-05:00",
+                "effective": "2023-07-02T17:39:00-05:00",
+                "onset": "2023-07-02T17:39:00-05:00",
+                "expires": "2023-07-02T18:15:00-05:00",
+                "ends": "2023-07-02T18:15:00-05:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Severe Thunderstorm Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Amarillo TX",
+                "headline": "Severe Thunderstorm Warning issued July 2 at 5:39PM CDT until July 2 at 6:15PM CDT by NWS Amarillo TX",
+                "description": "At 538 PM CDT, severe thunderstorms were located along a line\nextending from 5 miles south of Conlen to 5 miles south of Dalhart to\n8 miles southeast of Amistad, moving southeast at 35 mph.\n\nHAZARD...60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to roofs, siding, and trees is possible.\n\nLocations impacted include...\nDalhart, Hartley, Romero and Conlen.",
+                "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+                "response": "Shelter",
+                "parameters": {
+                    "AWIPSidentifier": ["SVSAMA"],
+                    "WMOidentifier": ["WWUS54 KAMA 022239"],
+                    "NWSheadline": [
+                        "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 615 PM CDT FOR NORTHWESTERN OLDHAM...SOUTHWESTERN SHERMAN...SOUTHERN DALLAM... NORTHWESTERN MOORE AND HARTLEY COUNTIES"
+                    ],
+                    "eventMotionDescription": [
+                        "2023-07-02T22:38:00-00:00...storm...327DEG...31KT...36.16,-102.27 35.98,-102.55 35.84,-103.02"
+                    ],
+                    "windThreat": ["RADAR INDICATED"],
+                    "maxWindGust": ["60 MPH"],
+                    "hailThreat": ["RADAR INDICATED"],
+                    "maxHailSize": ["Up to .75"],
+                    "BLOCKCHANNEL": ["EAS", "NWEM", "CMAS"],
+                    "EAS-ORG": ["WXR"],
+                    "VTEC": ["/O.CON.KAMA.SV.W.0242.000000T0000Z-230702T2315Z/"],
+                    "eventEndingTime": ["2023-07-02T23:15:00+00:00"]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4612f6e3dcbd362c7e57ee777ff966c1b9f76bb5.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [-82.73, 41.7],
+                        [-82.72, 41.6599999],
+                        [-82.66, 41.67],
+                        [-82.63, 41.65],
+                        [-82.72, 41.46],
+                        [-82.85, 41.49],
+                        [-83.03999999999999, 41.59],
+                        [-83.02, 41.61000000000001],
+                        [-82.9599999, 41.57000000000001],
+                        [-82.91, 41.56000000000001],
+                        [-82.92, 41.58000000000001],
+                        [-82.9, 41.610000000000014],
+                        [-82.93, 41.640000000000015],
+                        [-82.86000000000001, 41.750000000000014],
+                        [-82.73, 41.7]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4612f6e3dcbd362c7e57ee777ff966c1b9f76bb5.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.4612f6e3dcbd362c7e57ee777ff966c1b9f76bb5.001.1",
+                "areaDesc": "Ottawa, OH",
+                "geocode": {
+                    "SAME": ["039123"],
+                    "UGC": ["OHC123"]
+                },
+                "affectedZones": ["https://api.weather.gov/zones/county/OHC123"],
+                "references": [],
+                "sent": "2023-07-02T18:18:00-04:00",
+                "effective": "2023-07-02T18:18:00-04:00",
+                "onset": "2023-07-02T18:18:00-04:00",
+                "expires": "2023-07-02T19:15:00-04:00",
+                "ends": "2023-07-02T19:15:00-04:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Severe Thunderstorm Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Cleveland OH",
+                "headline": "Severe Thunderstorm Warning issued July 2 at 6:18PM EDT until July 2 at 7:15PM EDT by NWS Cleveland OH",
+                "description": "The National Weather Service in Cleveland has issued a\n\n* Severe Thunderstorm Warning for...\nOttawa County in northwestern Ohio...\n\n* Until 715 PM EDT.\n\n* At 617 PM EDT, a severe thunderstorm was located near Put-In-Bay,\nmoving east at 20 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to vehicles is possible. Expect damage to\ntrees and power lines.\n\n* Locations impacted include...\nKelleys Island, Put-In-Bay, Catawba Island and Marblehead.",
+                "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+                "response": "Shelter",
+                "parameters": {
+                    "AWIPSidentifier": ["SVRCLE"],
+                    "WMOidentifier": ["WUUS51 KCLE 022218"],
+                    "eventMotionDescription": ["2023-07-02T22:17:00-00:00...storm...284DEG...19KT...41.63,-82.94"],
+                    "windThreat": ["RADAR INDICATED"],
+                    "maxWindGust": ["60 MPH"],
+                    "hailThreat": ["RADAR INDICATED"],
+                    "maxHailSize": ["1.00"],
+                    "BLOCKCHANNEL": ["EAS", "NWEM", "CMAS"],
+                    "EAS-ORG": ["WXR"],
+                    "VTEC": ["/O.NEW.KCLE.SV.W.0056.230702T2218Z-230702T2315Z/"],
+                    "eventEndingTime": ["2023-07-02T23:15:00+00:00"]
+                }
+            }
+        }
+    ],
+    "title": "Current Severe Thunderstorm Warning events",
+    "updated": "2023-07-02T23:00:05+00:00"
+}
